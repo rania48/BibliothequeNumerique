@@ -29,8 +29,11 @@ Le projet est structuré comme suit :
 BibliothequeNumerique/
 │
 ├── Document.cs                        # Classe abstraite (Id, Titre, Auteur, Année)
+
 ├── Livre.cs                           # Classe Livre dérivée (+ NombrePages)
+
 ├── Magazine.cs                        # Classe Magazine dérivée (+ Numéro)
+
 ├── DocumentPDF.cs                     # Classe DocumentPDF ( + TailleEnMo )
 │
 ├── DocumentNonTrouveException.cs      # Exception personnalisée exigée
