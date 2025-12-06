@@ -35,13 +35,19 @@ BibliothequeNumerique/
 ├── Magazine.cs                        # Classe Magazine dérivée (+ Numéro)
 
 ├── DocumentPDF.cs                     # Classe DocumentPDF ( + TailleEnMo )
+
 │
 ├── DocumentNonTrouveException.cs      # Exception personnalisée exigée
+
 │
 ├── Bibliotheque.cs                    # Gestion : Ajouter, Supprimer, Rechercher, Afficher
+
+
 │                                      # + Sauvegarde et Chargement depuis fichier
+
 │
 ├── Program.cs                         # Application console + menu interactif
+
 │
 └── BibliothequeNumerique.csproj       # Fichier du projet .NET
 
