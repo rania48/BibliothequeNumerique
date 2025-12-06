@@ -41,7 +41,7 @@ namespace BibliothequeNumerique
                             Console.Write("Entrez un mot-clé : ");
                             string motCle = Console.ReadLine() ?? "";
                             var resultats = biblio.Rechercher(motCle);
-                            Console.WriteLine($"\n✅ {resultats.Count} document(s) trouvé(s) :");
+                            Console.WriteLine($"\n {resultats.Count} document trouvé :");
                             foreach (var d in resultats)
                             {
                                 d.AfficherDetails();
@@ -54,7 +54,7 @@ namespace BibliothequeNumerique
 
                             if (!Guid.TryParse(idStr, out Guid id))
                             {
-                                Console.WriteLine("❌ Id invalide.");
+                                Console.WriteLine("Id invalide.");
                             }
                             else
                             {
@@ -72,7 +72,7 @@ namespace BibliothequeNumerique
 
                         case "7":
                             quitter = true;
-                            Console.WriteLine("👋 Au revoir !");
+                            Console.WriteLine(" Au revoir !");
                             break;
 
                         default:

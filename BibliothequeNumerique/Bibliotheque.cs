@@ -172,7 +172,7 @@ namespace BibliothequeNumerique
                     }
                 }
 
-                Console.WriteLine("📂 Chargement terminé depuis : " + cheminFichier);
+                Console.WriteLine(" Chargement terminé depuis : " + cheminFichier);
             }
             catch (IOException ex)
             {

@@ -2,7 +2,7 @@
 
 namespace BibliothequeNumerique
 {
-    // Classe abstraite => elle sert de base, on ne peut pas créer Document directement
+    // Classe abstraite => ellee sert de base, on ne peut pas créer Document directement
     abstract class Document
     {
         public Guid Id { get; set; }
