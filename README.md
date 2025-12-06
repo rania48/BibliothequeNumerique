@@ -43,7 +43,7 @@ BibliothequeNumerique/
 ├── Bibliotheque.cs                    # Gestion : Ajouter, Supprimer, Rechercher, Afficher
 
 
-│                                      #  Sauvegarde et Chargement depuis fichier
+│                                        Sauvegarde et Chargement depuis fichier
 
 │
 ├── Program.cs                         # Application console + menu interactif
